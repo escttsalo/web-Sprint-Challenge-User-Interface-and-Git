@@ -90,6 +90,7 @@ header .links{
 }
 .links a{
     text-decoration: none;
+    font-size: 14px;
     color:black;
 }
 .container .bg-img{
@@ -109,7 +110,41 @@ header .links{
     padding:9% 0;
     margin-bottom: 2%;
 }
+.about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about .text-container{
+    /* width: 48%; */
+    font-weight: bold;
+    padding: 3% 2%;
+}
+/*About Middle Styles*/
+.middle-section{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.middle-section div{
+    width: 47.5%;
+    padding: 1%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.middle-section p{
+    padding-bottom: 4%;
+}
+.middle-section .learn-more{
+    width:35%;
+    padding:10px;
+    margin:2% 0;
+    text-align:center;
+    border:2px solid black;
+    border-radius: 10px;
+}
 
+/*Index Top Style*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -124,6 +159,8 @@ header .links{
     padding-bottom: 20px;  
 }
 
+
+/*Index Styles*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
