@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -87,13 +87,17 @@ header .links{
     display: flex;
     justify-content: space-around;
     align-self: flex-end;
-    text-decoration: none;
 }
-
-.bg-img{
-    background-image: url(img/jumbo.jpg);
+.links a{
+    text-decoration: none;
+    color:black;
+}
+.container .bg-img{
+    background-image: url(https://github.com/escttsalo/web-Sprint-Challenge-User-Interface-and-Git/blob/master/img/jumbo.jpg?raw=true);
+    /* background-color: black; */
     background-size: cover;
-    padding:8% 0;
+    /* background-repeat: no-repeat; */
+    padding:9% 0;
     margin-bottom: 2%;
 }
 
