@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -93,6 +93,7 @@ header .links{
     font-size: 14px;
     color:black;
 }
+/*Cheated on the url because I couldn't for the life of me get the image in folder to work*/
 .container .bg-img{
     background-image: url(https://github.com/escttsalo/web-Sprint-Challenge-User-Interface-and-Git/blob/master/img/jumbo.jpg?raw=true);
     /* background-color: black; */
@@ -126,11 +127,17 @@ header .links{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.middle-section .image img{
+    margin-bottom: 3%;
+}
 .middle-section div{
     width: 47.5%;
     padding: 1%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.middle-section .image{
+    margin-bottom: 5%;
 }
 .middle-section p{
     padding-bottom: 4%;
@@ -143,6 +150,12 @@ header .links{
     border:2px solid black;
     border-radius: 10px;
 }
+.working .text{
+    padding:3%;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
 
 /*Index Top Style*/
 .top-content {
