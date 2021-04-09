@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 html, body {
@@ -69,6 +70,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/*Header Styles*/
+header {
+    display:flex;
+    padding:4% 0;
+}
+
+header .lambdaLogo{
+    margin-right: 4%;
+}
+
+header .links{
+    width:75%;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+
+.bg-img{
+    background-image: url(img/jumbo.jpg);
+    background-size: cover;
+    padding:8% 0;
+    margin-bottom: 2%;
 }
 
 .top-content {
