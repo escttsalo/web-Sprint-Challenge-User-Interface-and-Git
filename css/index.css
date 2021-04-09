@@ -87,6 +87,7 @@ header .links{
     display: flex;
     justify-content: space-around;
     align-self: flex-end;
+    text-decoration: none;
 }
 
 .bg-img{
@@ -126,15 +127,44 @@ header .links{
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
+}
+/*Box Styles*/
+.teal{
+    background: teal;
+}
+.gold{
+    background: gold;
+}
+.cadetblue{
+    background: cadetblue;
+}
+.coral{
+    background: coral;
+}
+.crimson{
+    background: crimson;
+}
+.forestgreen{
+    background: forestgreen;
+}
+.darkorchid{
+    background: darkorchid;
+}
+.hotpink{
+    background: hotpink;
+}
+.indigo{
+    background: indigo;
+}
+.dodgerblue{
+    background: dodgerblue;
 }
 
 .bottom-content {
