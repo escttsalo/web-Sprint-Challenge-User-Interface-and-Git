@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 html, body {
@@ -97,6 +97,15 @@ header .links{
     /* background-color: black; */
     background-size: cover;
     /* background-repeat: no-repeat; */
+    padding:9% 0;
+    margin-bottom: 2%;
+}
+
+/*About Page Styles*/
+.about-img{
+    background-image: url(https://github.com/escttsalo/web-Sprint-Challenge-User-Interface-and-Git/blob/master/img/jumbo-about.png?raw=true);
+    background-color:dodgerblue;
+    background-size: cover;
     padding:9% 0;
     margin-bottom: 2%;
 }
