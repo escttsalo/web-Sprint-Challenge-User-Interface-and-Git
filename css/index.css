@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
 html, body {
@@ -71,6 +72,92 @@ p {
     margin: 0 auto;
 }
 
+/*Header Styles*/
+header {
+    display:flex;
+    padding:4% 0;
+}
+
+header .lambdaLogo{
+    margin-right: 4%;
+}
+
+header .links{
+    width:75%;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+}
+/*Cheated on the url because I couldn't for the life of me get the image in folder to work*/
+.container .bg-img{
+    background-image: url(https://github.com/escttsalo/web-Sprint-Challenge-User-Interface-and-Git/blob/master/img/jumbo.jpg?raw=true);
+    /* background-color: black; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding:9% 0;
+    margin-bottom: 2%;
+}
+
+/*About Page Styles*/
+.about-img{
+    background-image: url(https://github.com/escttsalo/web-Sprint-Challenge-User-Interface-and-Git/blob/master/img/jumbo-about.png?raw=true);
+    background-color:dodgerblue;
+    background-size: cover;
+    padding:9% 0;
+    margin-bottom: 2%;
+}
+.about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about .text-container{
+    /* width: 48%; */
+    font-weight: bold;
+    padding: 3% 2%;
+}
+/*About Middle Styles*/
+.middle-section{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.middle-section .image img{
+    margin-bottom: 3%;
+}
+.middle-section div{
+    width: 47.5%;
+    padding: 1%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.middle-section .image{
+    margin-bottom: 5%;
+}
+.middle-section p{
+    padding-bottom: 4%;
+}
+.middle-section .learn-more{
+    width:35%;
+    padding:10px;
+    margin:2% 0;
+    text-align:center;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.working .text{
+    padding:3%;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+
+/*Index Top Style*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +172,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+/*Index Styles*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,15 +190,44 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
+}
+/*Box Styles*/
+.teal{
+    background: teal;
+}
+.gold{
+    background: gold;
+}
+.cadetblue{
+    background: cadetblue;
+}
+.coral{
+    background: coral;
+}
+.crimson{
+    background: crimson;
+}
+.forestgreen{
+    background: forestgreen;
+}
+.darkorchid{
+    background: darkorchid;
+}
+.hotpink{
+    background: hotpink;
+}
+.indigo{
+    background: indigo;
+}
+.dodgerblue{
+    background: dodgerblue;
 }
 
 .bottom-content {
